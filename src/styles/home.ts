@@ -2,11 +2,8 @@ import { styled } from '@mui/system';
 import { Button } from "@mui/material";
 
 export const Container = styled('div')`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
