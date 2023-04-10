@@ -4,7 +4,7 @@ import { fipeContext } from '@/context/contextFipe'
 
 const Result = () => {
   const { fipeResult } = useContext(fipeContext)
-  console.log(fipeResult)
+
   return (
     <Container>
       <Title>{`TabelaFipe: ${fipeResult.Marca} ${fipeResult.Modelo}`}</Title>
