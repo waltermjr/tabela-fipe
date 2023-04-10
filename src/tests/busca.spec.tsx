@@ -1,6 +1,6 @@
 import { render, fireEvent, screen, within } from "@testing-library/react"
 import '@testing-library/jest-dom'
-import Busca from "."
+import Busca from "../pages/busca"
 
 jest.mock('next/router', () => ({
   useRouter: () => ({
