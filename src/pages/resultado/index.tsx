@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { Container, Title, Value, Text } from './style'
+import { Container, Title, Value, Text } from '../../styles/resultado'
 import { fipeContext } from '@/context/contextFipe'
 
 const Result = () => {

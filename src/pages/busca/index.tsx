@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react'
 import { TextField, Snackbar } from "@mui/material"
-import { Content, AutoCompleteUI, Title, SubTitle, Container, ButtonUI } from "./style"
+import { Content, AutoCompleteUI, Title, SubTitle, Container, ButtonUI } from "../../styles/busca"
 import api from "@/services/api"
 import { models } from '@/helpers/Models'
 import { fipeContext } from '@/context/contextFipe'

@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react";
-import { Container, Content, Title } from "./style";
+import { Container, Content, Title } from "../../styles/exercicios";
 
 const Exercicios = () => {
 
