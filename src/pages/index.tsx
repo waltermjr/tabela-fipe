@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { ButtonUI, Container } from './style'
+import { ButtonUI, Container } from '../styles/home'
 
 export default function Home() {
   const { push } = useRouter()
